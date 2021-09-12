@@ -1,0 +1,82 @@
+/*start public modal*/
+.pop-up .image-inside
+{
+    background-image: url("../../images/sm-assets/want-to-buy/form-ar.png");
+}
+
+.private-pop-up .image-inside
+{
+    background-image: url("../../images/sm-assets/want-to-buy/trial-form-ar.png");
+}
+
+.pop-up .image-inside img
+{
+
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.pop-up .for-inputs .form-group,
+.private-pop-up .for-inputs .form-group,
+.form-head
+{
+    text-align: right;
+}
+
+.pop-up .for-inputs .line-between span,
+.private-pop-up .for-inputs .line-between span
+{
+    right: 50%;
+    -webkit-transform: translate(50%, 15%);
+    -ms-transform: translate(50%, 15%);
+    transform: translate(50%, 15%);
+}
+
+.modal-close-custom,
+.private-modal-close
+{
+    left: 50px;
+}
+/*end public modal*/
+
+
+/********** start media queries ***********/
+@media only screen and (min-width: 992px)
+{
+    .pop-up .image-inside,
+    .private-pop-up .image-inside
+    {
+        background-position: left;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .pop-up .for-inputs .btn-primary
+    {
+        right: -30px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .form-head::after
+    {
+        right: 15px;
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .modal-close-custom,
+    .private-modal-close
+    {
+        left: 20px;
+    }
+
+    .form-head::after
+    {
+        right: 50px;
+    }
+}
+/********** end media queries ***********/

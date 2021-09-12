@@ -1,0 +1,2034 @@
+/*start yaman code*/
+/*for web slider*/
+.web-system-images .swiper-slide-active {
+    width: 439px !important;
+    height: 292px !important;
+    margin-top: 47px;
+    margin-left: -84px;
+}
+
+@media screen and (max-width: 768px) {
+    .web-system-images .swiper-slide-active {
+        width: 452px !important;
+        height: 304px !important;
+        margin-top: 40px;
+        margin-left: -114px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .web-system-images .swiper-slide {
+        opacity: 0;
+    }
+
+    .web-system-images .swiper-slide-active {
+        width: 77vw !important;
+        height: 49vw !important;
+        margin-top: 6vw;
+        margin-left: 8vw;
+        opacity: 1;
+    }
+
+    .web-system-images .appmax-screen-mobile-image {
+        width: 100vw !important;
+        height: 66vw !important;
+        display: block;
+    }
+
+    #web-slider-area .appmax-screenshot-bg {
+        height: 50vh !important;
+    }
+
+    #web-slider-area .container {
+        height: 50vh !important;
+    }
+
+    /*for mobile slide*/
+    #mobile-slider-area .container {
+        height: 140vw !important;
+    }
+
+    #mobile-slider-area .appmax-screen-mobile-image {
+        width: 65vw;
+        height: 132vw;
+        display: block;
+    }
+
+    #mobile-slider-area .swiper-slide {
+        opacity: 0;
+    }
+
+    #mobile-slider-area .swiper-slide-active {
+        filter: none;
+        width: 60vw !important;
+        height: 130vw !important;
+        margin-left: 16vw;
+        margin-top: 0;
+        border-radius: 25px;
+        opacity: 1;
+    }
+}
+/* end yaman code */
+
+/******************** start of preloader *********************/
+#preloader {
+    background-color: #FCBF32;
+}
+/******************** end of preloader *********************/
+
+
+/******************** start of header *********************/
+.appmax-header-area {
+    z-index: 27;
+}
+
+/*****start of dropdown languages*****/
+#appmax-header .col-lg-4.col-md-3
+{
+    position: absolute;
+}
+
+.fixed-header .container .dropdown {
+    display: flex;
+}
+
+.fixed-header .dropdown .btn-secondary {
+    color: #fff;
+}
+
+.appmax-sticky-menu .dropdown .btn-secondary {
+    color: #2A2A2A !important;
+}
+
+.fixed-header .dropdown .btn-secondary,
+.btn-secondary:not([disabled]):not(.disabled).active,
+.btn-secondary:not([disabled]):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle,
+.btn-secondary.focus,
+.btn-secondary:focus {
+    box-shadow: none;
+    background: none;
+    border: none;
+}
+
+.dropdown-toggle::after {
+    position: relative !important;
+    top: 2px;
+    content: "\f078";
+    font-family: "fontawesome";
+    font-size: 12px;
+    border: none;
+}
+
+.dropdown-menu {
+    min-width: auto;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #FCBF32;
+    color: #fff;
+}
+
+.dropdown-item:active,
+.dropdown-item.active {
+    background-color: #FF8C40 !important;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+/*****end of dropdown languages*****/
+
+/***** start header menu *****/
+.appmax-sticky-menu {
+    background-color: #fff;
+    height: 100px;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+    .appmax-sticky-menu .container {
+        -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+
+    .appmax-sticky-menu .appmax-header-menu ul li .inside-li-buy {
+        border: 1px solid #000;
+        border-radius: 50px;
+    }
+
+    .appmax-sticky-menu .appmax-header-menu ul li a {
+        color: #2A2A2A !important;
+    }
+
+.appmax-header-menu a::before {
+    display: none;
+}
+
+/*mobile-menu*/
+.appmax-header-menu .mobile-header-logo {
+    margin: 20px auto 40px;
+    text-align: center;
+}
+
+.appmax-header-menu .m-menu-icons {
+    position: relative;
+    width: 300px;
+    margin: 20px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+    .appmax-header-menu .m-menu-icons a {
+        padding: 0 5px;
+    }
+
+.appmax-header-menu .mobile-menu-footer {
+    position: relative;
+    bottom: 0;
+    background-color: #2A2A2A;
+    width: inherit;
+    height: 60px;
+}
+
+.mobile-menu-footer .menu-logo-box,
+.mobile-menu-footer .menu-copyrights {
+    position: absolute;
+}
+
+.mobile-menu-footer .menu-logo-box {
+    top: 10px;
+}
+
+.mobile-menu-footer .menu-copyrights {
+    top: 15px;
+}
+
+    .mobile-menu-footer .menu-copyrights p,
+    .mobile-menu-footer .menu-copyrights a {
+        color: #fff;
+        font-size: 14px;
+    }
+/*mobile-menu*/
+/***** end header menu *****/
+/******************** end of header *********************/
+
+
+/********************* start fixed-btn *********************/
+.fixed-btn {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #FF8C40, #FCBF32);
+    cursor: pointer;
+    z-index: 26;
+}
+
+    .fixed-btn.fixed-one {
+        bottom: 100px;
+    }
+
+    .fixed-btn.fixed-two {
+        bottom: 210px;
+        background-image: linear-gradient(to right, #313475, #8B549E);
+    }
+
+    .fixed-btn.fixed-three {
+        bottom: 320px;
+    }
+
+    .fixed-btn.fixed-two,
+    .fixed-btn.fixed-three {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+.fixed-container:hover .fixed-two,
+.fixed-container:hover .fixed-three {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fixed-btn.fixed-two,
+.fixed-container:hover .fixed-three {
+    -webkit-transition: all .8s ease-out;
+    -o-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+}
+
+.fixed-btn.fixed-three,
+.fixed-container:hover .fixed-two {
+    -webkit-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.fixed-btn img {
+    position: absolute;
+    top: 50%;
+}
+/********************* end fixed-btn ***********************/
+
+
+/******************** start banner section ********************/
+body.appmax-v2.appmax-wave .appmax-banner-area {
+    background-image: linear-gradient(to right, #FF8C40, #FCBF32);
+    padding-top: 120px;
+    z-index: 25;
+}
+
+    body.appmax-v2.appmax-wave .appmax-banner-area > .container {
+        background-image: url(/AdamSmWeb-Frontend/images/banner-texture.png) !important;
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.appmax-about-left-img img {
+    -webkit-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+
+.appmax-about-right-content {
+    text-align: center;
+}
+
+    .appmax-about-right-content h2 {
+        font-weight: 600;
+    }
+
+    .appmax-about-right-content h2,
+    .appmax-about-right-content p {
+        color: #fff;
+    }
+
+    .appmax-about-right-content .appmax-default-btn {
+        border-radius: 50px;
+        height: 50px;
+        line-height: 50px;
+        min-width: 200px;
+        margin: 0 20px;
+    }
+
+.appmax-default-btn:hover,
+.appmax-default-btn:focus,
+.appmax-default-btn:active {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.appmax-default-btn:hover {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.appmax-about-right-content a.buy {
+    background-color: #2A2A2A;
+}
+
+.appmax-about-right-content a.trial {
+    background-color: transparent;
+    border: 2px solid #fff;
+    line-height: 47px;
+    -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.33), 0 20px 50px rgba(0, 0, 0, 0.22);
+    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.33), 0 20px 50px rgba(0, 0, 0, 0.22);
+}
+
+body.appmax-v2.appmax-wave .appmax-banner-img {
+    display: none;
+}
+
+#appmax-home .wave-start svg path {
+    fill: url(#gradient-banner);
+}
+/******************** end banner section ********************/
+
+
+/******************** start about-sm ********************/
+body.appmax-v2 .appmax-banner-promo-section {
+    padding: 0 0 50px;
+}
+
+.about-sm {
+    padding-top: 100px;
+}
+
+    .about-sm h2 {
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .about-sm h2,
+    .about-sm p {
+        text-align: center;
+        color: #2A2A2A;
+    }
+
+#more-1 {
+    display: none;
+}
+
+#myBtn-1 {
+    position: relative;
+    background: transparent;
+    border: none;
+    color: #FBCB2A;
+    cursor: pointer;
+}
+/******************** end about-sm ********************/
+
+
+/******************** start video and features container ********************/
+.video-features-container {
+    background-image: url(/AdamSmWeb-Frontend/images/sm-assets/system-features/feat-background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 35px;
+}
+
+.appmax-video-area,
+.appmax-feature-area {
+    -webkit-transform: translateY(-125px);
+    -ms-transform: translateY(-125px);
+    transform: translateY(-125px);
+}
+
+/********* start sm-video *********/
+#video-laptop {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+
+    #video-laptop iframe {
+        box-sizing: border-box;
+        background: url('/AdamSmWeb-Frontend/images/sm-assets/video/laptop.png') center center no-repeat;
+        background-size: contain;
+        padding: 15.7% 18.9% 15.4%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.appmax-v2 .video-title {
+    visibility: hidden;
+}
+
+.iq-waves {
+    background-image: url("/AdamSmWeb-Frontend/images/sm-assets/video/video-icn.png");
+}
+
+    .iq-waves .waves {
+        background-color: rgba(246, 143, 30, .4);
+    }
+/******** end sm-video **********/
+
+
+/********* start system features **********/
+.appmax-feature-area {
+    padding: 0 0 130px;
+}
+
+.appmax-swiper-slider-area .slider-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.appmax-swiper-slider-area.appmax_hover_animation .layer {
+    top: auto !important;
+}
+
+.appmax-heding-title {
+    margin-top: 200px;
+}
+
+    .appmax-heding-title h2 {
+        font-weight: 600;
+    }
+
+    .appmax-heding-title p {
+        font-size: 24px;
+    }
+
+    .appmax-heding-title h2,
+    .appmax-heding-title p,
+    .appmax-feature-item h2 {
+        color: #2A2A2A;
+    }
+
+.appmax-feature-single-item {
+    margin-bottom: 0;
+}
+
+.appmax-feature-animate-frame::before {
+    background-image: url("/AdamSmWeb-Frontend/images/sm-assets/system-features/features-back-center.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.appmax-feature-animate-slider.owl-carousel .owl-stage-outer {
+    height: auto;
+}
+
+.appmax-feature-area,
+.appmax-feature-animate-slider.owl-carousel {
+    overflow: visible;
+}
+
+.appmax-feature-animate-frame {
+    position: unset;
+    height: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.appmax-feature-item img,
+.appmax-feature-item h2 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.appmax-feature-item img {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.appmax-feature-item h2 {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.appmax-feature-animate-frame .feature-item p,
+.appmax-feature-animate-frame .feature-item h2 {
+    color: #2A2A2A;
+}
+
+.appmax-feature-animate-frame .feature-item p {
+    margin: 20px auto;
+}
+
+.appmax-feature-animate-frame .feature-item h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .appmax-feature-animate-frame .feature-item h2:before,
+    .appmax-feature-animate-frame .feature-item h2:after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        background-color: #FBBE32;
+    }
+
+    .appmax-feature-animate-frame .feature-item h2:before {
+        width: 110px;
+    }
+
+    .appmax-feature-animate-frame .feature-item h2:after {
+        width: 30px;
+    }
+/******** end system features *********/
+/******************** end video and features container  ********************/
+
+
+/******************** start swiper-slider-area Mobile && Web ********************/
+/*swiper header*/
+.swiper-area-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+    .swiper-area-header .slider-header {
+        margin: auto;
+    }
+
+        .swiper-area-header .slider-header h2 {
+            margin-bottom: 25px;
+            color: #2A2A2A;
+            font-weight: 600;
+        }
+
+    .swiper-area-header .slider-buttons .appmax-default-btn {
+        border-radius: 50px;
+        /*
+    height: 45px;
+    */
+        min-width: 170px;
+        margin: 0 20px;
+        cursor: pointer;
+        background-color: #FAB732;
+        color: #fff;
+        border: 2px solid #FAB732;
+        padding: 10px 0;
+        line-height: initial;
+        height: auto;
+    }
+
+        .swiper-area-header .slider-buttons .appmax-default-btn:hover {
+            color: #fff;
+        }
+
+        .swiper-area-header .slider-buttons .appmax-default-btn.active {
+            background-color: #fff;
+            color: #FAB732;
+        }
+/*swiper header*/
+
+/*Mobile And Web*/
+.appmax-v2 .appmax-swiper-slider-area {
+    padding: 50px 0;
+    overflow: visible;
+}
+
+.appmax-swiper-slider-area .container {
+    margin-top: 100px;
+}
+
+.appmax-v2 .appmax-swiper-slider-area .swiper-slide {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+    .appmax-v2 .appmax-swiper-slider-area .swiper-slide.swiper-slide-active {
+        -webkit-filter: none;
+        filter: none;
+    }
+/*Mobile And Web*/
+
+/*mobile*/
+/*mobile*/
+
+/*web*/
+.web-system-images .appmax-screen-mobile-image {
+    background-image: url("/AdamSmWeb-Frontend/images/sm-assets/system-images/web-system-images.png");
+    width: 600px;
+    height: 400px;
+}
+
+.web-system-images .swiper-wrapper {
+    height: 400px;
+    width: 600px;
+}
+
+.web-system-images .swiper-slide {
+    box-shadow: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*web*/
+/******************** end swiper-slider-area Mobile && Web ********************/
+
+
+/******************** start appmax-user-review-area ********************/
+.appmax-v2 .appmax-user-review-area {
+    background-image: url("/AdamSmWeb-Frontend/images/sm-assets/customers/custo-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.appmax-v2 .appmax-user-review-bg {
+    display: none;
+}
+
+.appmax-only-bg {
+    position: relative;
+}
+
+.user-review-meta::before,
+.user-review-content p::before {
+    display: none;
+}
+
+.user-review-meta-img {
+    float: none;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+
+    .user-review-meta-img img {
+        width: 150px !important;
+    }
+
+.appmax-v2 .appmax-user-review-area .swiper-slide {
+    visibility: hidden;
+}
+
+    .appmax-v2 .appmax-user-review-area .swiper-slide.swiper-slide-active {
+        visibility: visible;
+        margin-top: 50px;
+    }
+
+    .appmax-v2 .appmax-user-review-area .swiper-slide:before,
+    .appmax-v2 .appmax-user-review-area .swiper-slide:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        background-color: #fff;
+        height: 100px;
+        -webkit-box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+    }
+
+    .appmax-v2 .appmax-user-review-area .swiper-slide:before {
+        width: 350px;
+        z-index: -2;
+    }
+
+    .appmax-v2 .appmax-user-review-area .swiper-slide:after {
+        width: 380px;
+        z-index: -1;
+    }
+
+.appmax-user-review-item {
+    padding: 20px 40px 10px;
+}
+
+.user-review-content p {
+    font-weight: 100;
+}
+
+.user-review-content h2 {
+    margin: 0 auto 10px;
+    font-weight: 600;
+}
+
+.user-review-content p:last-child {
+    position: relative;
+    top: -13px;
+}
+
+.user-review-content p.cust-review {
+    padding: 20px 0 30px;
+}
+
+.user-review-content p,
+.user-review-content h2 {
+    color: #2A2A2A;
+    text-align: center;
+}
+
+    .user-review-content p.cust-job {
+        color: #FBBE32;
+        font-size: 11px;
+        padding: 0 0 10px;
+    }
+
+.appmax-v2 .appmax-user-review-area .user-view-slider-btn {
+    float: none;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.swiper-btn-prev,
+.swiper-btn-prev:hover {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+    .swiper-btn-prev:hover {
+        opacity: .5;
+    }
+/******************** end appmax-user-review-area ********************/
+
+
+/******************** start plans area ********************/
+.plans-area {
+    background-image: url("/AdamSmWeb-Frontend/images/sm-assets/purchase-plans/plans-back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: contain;*/
+}
+
+    .plans-area .plans-heading,
+    .certificates .certificates-heading {
+        margin: 50px auto;
+        text-align: center;
+        color: #2A2A2A;
+    }
+
+        .plans-area .plans-heading h2,
+        .certificates .certificates-heading h2 {
+            font-weight: 600;
+        }
+
+.nav.web-prices-choices {
+    margin: auto;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #C4C4C4;
+}
+
+.web-prices-choices.nav-pills .nav-link:hover {
+    color: #FBBE32;
+}
+
+.web-prices-choices.nav-pills .nav-link.active {
+    border: 1px solid #FA275D !important;
+}
+
+    .web-prices-choices.nav-pills .nav-link.active:hover {
+        color: #fff;
+    }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #FA275D;
+}
+
+.plans-area table {
+    background-color: #fff;
+    border-top: none;
+    margin-top: 15px;
+}
+
+    .plans-area table thead {
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    }
+
+thead tr th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    background-color: #fff;
+}
+
+    thead tr th.p-p {
+        padding: 0 0 10px;
+    }
+
+        thead tr th.p-p p {
+            font-size: 20px
+        }
+
+.table-head-lower.active {
+    display: table-row;
+}
+
+
+.plans-area table th {
+    font-weight: 300;
+    color: #2A2A2A;
+}
+
+.plans-area table th,
+.plans-area table td {
+    text-align: center;
+}
+
+.plans-area table tr .f-p,
+.plans-area table tr .s-p,
+.plans-area table tr .t-p {
+    color: #fff;
+}
+
+.plans-area table tr .f-p,
+.plans-area table tr th:nth-child(2) a:hover {
+    background-color: #FA275D;
+}
+
+.plans-area table tr .s-p,
+.plans-area table tr th:nth-child(3) a:hover {
+    background-color: #FFCC00;
+}
+
+.plans-area table tr .t-p,
+.plans-area table tr th:last-child a:hover {
+    background-color: #00CC6F;
+}
+
+.plans-area tbody tr th p {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.plans-area table tr th .f-pr {
+    color: #FA275D;
+}
+
+.plans-area table tr th .s-pr {
+    color: #FFCC00;
+}
+
+.plans-area table tr th .t-pr {
+    color: #00CC6F;
+}
+
+.plans-area table tr th a {
+    color: #aaa;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 3px 15px;
+    transition: all .2s ease-in-out;
+}
+
+    .plans-area table tr th a:hover {
+        border: none;
+        color: #fff;
+    }
+/******************** end plans area ********************/
+
+
+
+/******************** start certificates section ********************/
+.certificates {
+    margin: 50px auto;
+}
+
+    .certificates .image-box {
+        text-align: center;
+    }
+
+        .certificates .image-box img {
+            -webkit-transition: .5s ease;
+            -o-transition: .5s ease;
+            transition: .5s ease;
+        }
+
+        .certificates .image-box > img {
+            max-width: 200px;
+            border-radius: 20px;
+            -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+            cursor: pointer;
+        }
+
+.middle-icn {
+    position: absolute;
+    top: 50%;
+    background-color: #999;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    text-align: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.certificates .image-box:hover > img {
+    opacity: 0.3;
+}
+
+.certificates .image-box:hover .middle-icn {
+    opacity: 1;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 28;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 500px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+    .modal-content .mySlides img {
+        width: 100%;
+    }
+
+/* The Close Button */
+.close {
+    color: #000;
+    position: absolute;
+    top: 100px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+/******************** end certificates section ********************/
+
+
+
+/******************** start footer ********************/
+body.appmax-wave .appmax-fotter-area .footer-content {
+    background-image: linear-gradient(to right, #FF8C40, #FCBF32);
+}
+
+.appmax-v2 .appmax-fotter-area .wave-start svg path {
+    fill: url(#gradient-footer)
+}
+
+.appmax-v2 .appmax-fotter-area {
+    padding-bottom: 0;
+    background-color: #fff;
+}
+
+    .appmax-v2 .appmax-fotter-area::after {
+        display: none;
+    }
+
+.fotter-social-icon ul li a {
+    background: none;
+}
+
+.appmax-v2 .fotter-social-icon ul li a:hover {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.appmax-fotter-top {
+    padding: 0 0 50px;
+}
+
+.appmax-subscribe label {
+    position: unset;
+    color: #fff;
+    line-height: 56px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.appmax-v2 .appmax-subscribe input[type="email"] {
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    height: auto;
+    font-size: inherit;
+}
+
+    .appmax-v2 .appmax-subscribe input[type="email"]::placeholder {
+        color: #2A2A2A;
+    }
+
+.appmax-v2 .appmax-subscribe input[type="submit"] {
+    position: unset;
+    border-radius: 5px;
+    background-color: #2A2A2A;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.43);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.43);
+}
+
+.appmax-fotter-item p {
+    text-align: center;
+    color: #fff;
+    direction: ltr;
+}
+
+.footer-bottom {
+    background-color: #2A2A2A;
+}
+
+    .footer-bottom .container > a,
+    .footer-bottom .container > p {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .footer-bottom .container > a {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+
+    .footer-bottom .container p {
+        margin-bottom: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+        .footer-bottom .container p,
+        .footer-bottom .container p a {
+            color: #fff;
+        }
+/******************** end footer ********************/
+
+
+
+
+/******************* start media query *********************/
+@media only screen and (min-width: 1600px) {
+    /*header*/
+    .fixed-header .container,
+    body.appmax-v2.appmax-wave .appmax-banner-area > .container {
+        width: 1400px;
+    }
+    /*header*/
+}
+
+@media only screen and (min-width: 1024px) {
+    body.appmax-v2 .appmax-banner-promo-section {
+        padding: 100px 0 50px
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*header*/
+    .fixed-header .appmax-header-menu ul {
+        min-width: 600px !important;
+    }
+
+        .fixed-header .appmax-header-menu ul li {
+            min-width: 100px !important;
+        }
+
+    .fixed-header .appmax-header-logo img {
+        width: 150px;
+        -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    /*header*/
+
+    /*banner section*/
+    .appmax-about-right-content a.buy,
+    .appmax-about-right-content a.trial {
+        min-width: auto;
+        width: 150px;
+        margin: 0 10px;
+    }
+    /*banner section*/
+}
+
+@media only screen and (min-width: 992px) {
+    /*header*/
+    .fixed-header .big-header-menu {
+        position: absolute;
+    }
+
+    .fixed-header .appmax-header-menu ul {
+        min-width: 700px;
+    }
+
+        .fixed-header .appmax-header-menu ul li {
+            border: 1px solid #fff;
+            padding: 5px 10px;
+            min-width: 125px;
+            text-align: center;
+            margin: 0 7px;
+        }
+
+    .appmax-sticky-menu .appmax-header-menu ul li {
+        border: none !important;
+    }
+
+    .fixed-header .appmax-header-menu ul li:hover {
+        -webkit-transition: .5s ease-out;
+        -o-transition: .5s ease-out;
+        transition: .5s ease-out;
+    }
+
+    .fixed-header .appmax-header-menu ul li:hover {
+        background: #fff;
+    }
+
+        .fixed-header .appmax-header-menu ul li:hover a {
+            color: #2A2A2A !important;
+        }
+
+    .appmax-header-logo {
+        position: absolute;
+        max-width: 200px;
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+    .fixed-header .appmax-header-logo,
+    .appmax-header-menu .mobile-header-logo,
+    .appmax-header-menu .m-menu-icons,
+    .appmax-header-menu .mobile-menu-footer {
+        display: none;
+    }
+
+    .appmax-sticky-menu .appmax-header-logo {
+        display: block;
+    }
+    /*header*/
+
+    /*banner section*/
+    .appmax-about-right-content p {
+        font-size: 24px;
+    }
+    /*banner section*/
+
+    /*features section*/
+    .appmax-heding-title p:before,
+    .appmax-heding-title p:after,
+    .appmax-heding-title > img,
+    .appmax-feature-item .small-con {
+        display: none;
+    }
+    /*features section*/
+
+    /* user review area */
+    .appmax-v2 .appmax-user-review-area {
+        padding: 100px 0 50px;
+    }
+    /* user review area */
+
+    /******start plans area*****/
+    /*mobile prices*/
+    .mobile-prices-choices,
+    .mobile-prices-container {
+        display: none;
+    }
+    /*mobile prices*/
+    /******end plans area*****/
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    /*header*/
+    .appmax-header-menu ul li {
+        margin: 20px;
+    }
+    /*header*/
+
+    /*footer*/
+    .appmax-fotter-area .footer-mail {
+        text-align: center;
+    }
+    /*footer*/
+}
+
+@media only screen and (max-width: 991px) and (min-width: 480px) {
+    /*footer*/
+    .appmax-fotter-top .submit-btn {
+        margin-top: 20px;
+    }
+    /*footer*/
+}
+
+@media only screen and (min-width: 768px) {
+    /*footer*/
+    .fotter-social-icon ul {
+        padding: 45px 0;
+    }
+    /*footer*/
+}
+
+@media only screen and (min-width: 576px) {
+    /*header*/
+    .appmax-header-logo {
+        display: none;
+    }
+    /*header*/
+}
+
+@media only screen and (max-width: 991px) {
+    /*start body*/
+    html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /*end body*/
+
+    /*header*/
+    .appmax-sticky-menu,
+    .appmax-header-logo {
+        display: none !important;
+    }
+
+    .appmax-header-menu {
+        top: 50px;
+        background: #fff none repeat scroll 0 0;
+    }
+
+        .appmax-header-menu ul li a {
+            color: #2A2A2A;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+    /*header*/
+
+    /*fixed-btn*/
+    .fixed-btn {
+        width: 75px;
+        height: 75px;
+    }
+
+        .fixed-btn.fixed-one {
+            bottom: 30px;
+        }
+
+        .fixed-btn.fixed-two {
+            bottom: 115px;
+        }
+
+        .fixed-btn.fixed-three {
+            bottom: 200px;
+        }
+
+        .fixed-btn.fixed-one img {
+            width: 25px;
+        }
+
+        .fixed-btn.fixed-two img,
+        .fixed-btn.fixed-three img {
+            width: 40px;
+        }
+    /*fixed-btn*/
+
+    /*banner section*/
+    .appmax-about-right-content a.buy,
+    .appmax-about-right-content a.trial {
+        min-width: auto;
+        width: 150px;
+        height: 40px;
+        margin: 0 5px;
+        font-size: 12px;
+        -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.33);
+        box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.33);
+    }
+
+    .appmax-about-right-content a.buy {
+        line-height: 40px;
+    }
+
+    .appmax-about-right-content a.trial {
+        line-height: 37px;
+    }
+    /*banner section*/
+
+    /*about-sm*/
+    .about-sm h2 {
+        font-size: 24px;
+    }
+    /*about-sm*/
+
+    /*video-features-container*/
+    .video-features-container {
+        background-image: url("/AdamSmWeb-Frontend/images/sm-assets/system-features/video-features-back_1_350x1900.png");
+        padding-bottom: 0;
+    }
+
+    /*video section*/
+    .waves {
+        max-height: 220px;
+    }
+    /*video section*/
+
+    /*features section*/
+    .appmax-feature-area {
+        padding: 0;
+    }
+
+    #features-zoomin {
+        display: none;
+    }
+
+    .first-feature-container::before,
+    .second-feature-container::before {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background-color: #F48633;
+        z-index: -1;
+    }
+
+    .first-feature-container::before {
+        -webkit-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+
+    .appmax-feature-item {
+        margin-top: 0;
+    }
+    /*features section*/
+    /*video-features-container*/
+
+    /* user review area */
+    .appmax-v2 .appmax-user-review-area {
+        padding: 50px 0;
+        background-position-x: right;
+    }
+    /* user review area */
+
+    /******start plans area*******/
+    .plans-area {
+        background: none;
+    }
+
+    .web-prices-choices,
+    .web-prices {
+        display: none;
+    }
+
+    /*mobile prices choices*/
+    .mobile-prices-choices {
+        margin: 20px auto;
+    }
+
+        .mobile-prices-choices .students-num {
+            line-height: 48px;
+            color: #0b0b0b;
+            font-weight: 600;
+        }
+
+        .mobile-prices-choices .dropdown .btn-secondary {
+            color: #2A2A2A;
+            background: none;
+        }
+
+        .mobile-prices-choices .dropdown {
+            line-height: 3;
+        }
+
+        .mobile-prices-choices .dropdown-menu {
+            padding: 0;
+            min-width: 150px;
+            margin: auto !important;
+        }
+
+        .mobile-prices-choices .dropdown-item {
+            border-bottom: 1px solid rgba(0,0,0,.15);
+        }
+
+            .mobile-prices-choices .dropdown-item:last-child {
+                border-bottom: none;
+            }
+
+        .mobile-prices-choices .dropdown-toggle::after {
+            margin: 0 10px;
+        }
+    /*mobile prices choices*/
+
+    /*mobile prices*/
+    .mobile-prices {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+        .mobile-prices .price-head {
+            font-size: 24px;
+            font-weight: 600;
+            width: 100%;
+            padding: 10px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+            .mobile-prices .price-head.first-price-head {
+                background-color: #FA275D;
+            }
+
+            .mobile-prices .price-head.second-price-head {
+                background-color: #FFCC00;
+            }
+
+            .mobile-prices .price-head.third-price-head {
+                background-color: #00CC6F;
+            }
+
+        .mobile-prices .mobile-prices-content {
+            background-color: #fff;
+        }
+
+        .mobile-prices .price-head.first-price-head,
+        .mobile-prices .first-prices-content {
+            border: 2px solid #FA275D;
+        }
+
+        .mobile-prices .price-head.second-price-head,
+        .mobile-prices .second-prices-content {
+            border: 2px solid #FFCC00;
+        }
+
+        .mobile-prices .price-head.third-price-head,
+        .mobile-prices .third-prices-content {
+            border: 2px solid #00CC6F;
+        }
+
+    .mobile-prices-features .one-feature {
+        margin: auto;
+    }
+
+        .mobile-prices-features .one-feature > div {
+            border-bottom: 1px solid #CBCDD5;
+            text-align: center;
+            padding: 5px 15px;
+        }
+
+            .mobile-prices-features .one-feature > div:first-child {
+                border-right: 1px solid #CBCDD5;
+            }
+
+    .buy-mob {
+        width: 100%;
+        box-shadow: 0 3px 6px #00000029;
+        text-align: center;
+    }
+
+        .buy-mob p {
+            margin: 0;
+            padding: 10px 0 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .buy-mob .first-p-price {
+            color: #FA275D;
+        }
+
+        .buy-mob .second-p-price {
+            color: #FFCC00;
+        }
+
+        .buy-mob .third-p-price {
+            color: #00CC6F;
+        }
+
+        .buy-mob a {
+            box-shadow: none;
+            background: none;
+            margin: 0 auto 20px;
+            border-radius: 50px;
+            font-size: 18px;
+            height: 40px;
+            line-height: 40px;
+            min-width: 100px;
+        }
+
+        .buy-mob.first-buy-mob a {
+            border: 1px solid #FA275D;
+            color: #FA275D;
+        }
+
+            .buy-mob.first-buy-mob a:hover {
+                background-color: #FA275D;
+            }
+
+        .buy-mob.second-buy-mob a {
+            border: 1px solid #FFCC00;
+            color: #FFCC00;
+        }
+
+            .buy-mob.second-buy-mob a:hover {
+                background-color: #FFCC00;
+            }
+
+        .buy-mob.third-buy-mob a {
+            border: 1px solid #00CC6F;
+            color: #00CC6F;
+        }
+
+            .buy-mob.third-buy-mob a:hover {
+                background-color: #00CC6F;
+            }
+
+    .carousel-indicators {
+        position: relative;
+        top: 20px;
+        bottom: auto;
+        padding: 0;
+    }
+
+        .carousel-indicators li {
+            background-color: #777777;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+            .carousel-indicators li.active {
+                background-color: #000;
+            }
+    /*mobile prices*/
+    /******end plans area*****/
+
+    /*certificates*/
+    .certificates .image-box {
+        margin: 10px 0;
+    }
+
+    #myModal .close {
+        top: 30px;
+    }
+    /*certificates*/
+
+    /*footer*/
+    .appmax-fotter-item p {
+        display: inline-block;
+        font-size: 14px;
+    }
+    /*footer*/
+}
+
+@media only screen and (max-width: 767px) {
+    /*header*/
+    .menu-toggle {
+        top: 4px;
+    }
+    /*header*/
+
+    /*banner section*/
+    body.appmax-v2.appmax-wave .appmax-banner-area {
+        padding-top: 0;
+        margin-bottom: 150px;
+    }
+
+    .appmax-about-left-img {
+        margin-bottom: 85px;
+    }
+
+    .appmax-about-right-content > div img {
+        width: 70%;
+    }
+
+    .appmax-about-right-content a.buy,
+    .appmax-about-right-content a.trial {
+        width: 130px;
+    }
+    /*banner section*/
+
+    /*system images section*/
+    .swiper-area-header .slider-header h2 {
+        font-size: 5vw;
+    }
+    /*system images section*/
+
+    /*user-review-area*/
+    .appmax-user-review-item {
+        width: 340px;
+    }
+
+    .user-review-meta-img {
+        padding: 20px 0;
+    }
+
+        .user-review-meta-img img {
+            width: 120px !important;
+        }
+    /*user-review-area*/
+
+
+    /******start plans area*****/
+    /*mobile prices*/
+    .mobile-prices .price-head,
+    .buy-mob p {
+        font-size: 18px;
+    }
+
+    .buy-mob a {
+        padding: 0 10px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .mobile-prices-features .one-feature > div:first-child {
+        font-size: 14px;
+    }
+    /*mobile prices*/
+    /******end plans area*****/
+
+    /* certificates */
+    .modal-content {
+        width: 350px;
+    }
+    /* certificates */
+
+    /*footer*/
+    .block-intro--home-footer .wave-start {
+        margin-top: -160px;
+    }
+
+    .footer-bottom .container > a {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+
+        .footer-bottom .container > a img {
+            width: 75px;
+        }
+
+    .footer-bottom .container p {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    /*footer*/
+}
+
+@media only screen and (max-width: 575px) {
+    /*header*/
+    .appmax-header-area {
+        padding: 10px 0;
+    }
+
+    .appmax-header-menu {
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        display: block !important;
+        height: auto !important;
+        width: 300px;
+        -webkit-transition: all .5s ease-out;
+        -o-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+    }
+
+        .appmax-header-menu ul li {
+            margin: 20px;
+        }
+
+        .appmax-header-menu .m-menu-icons {
+            position: inherit;
+            bottom: 60px;
+        }
+
+        .appmax-header-menu .mobile-menu-footer {
+            position: inherit;
+        }
+
+    .mobile-menu-footer .menu-logo-box img {
+        width: 75px;
+    }
+    /*header*/
+
+    /*banner section*/
+    body.appmax-v2.appmax-wave .appmax-banner-area {
+        margin-bottom: 100px;
+    }
+
+    .appmax-about-right-content {
+        margin-bottom: 20px;
+    }
+
+        .appmax-about-right-content h2 {
+            font-size: 5vw;
+            padding: 15px 0 0;
+        }
+
+        .appmax-about-right-content p {
+            font-size: 4vw;
+            padding: 15px 0;
+            margin: 0 auto;
+        }
+
+    #appmax-home .wave-start {
+        margin-top: -2px;
+    }
+    /*banner section*/
+
+    /*about-sm*/
+    .about-sm h2 {
+        font-size: 18px;
+    }
+    /*about-sm*/
+
+    /*video section*/
+    #video-laptop iframe {
+        padding: 16.7% 17.9% 16.4%;
+    }
+    /*video section*/
+
+    /*features-section*/
+    .appmax-feature-item h2 {
+        font-size: 18px;
+    }
+
+    .appmax-heding-title p {
+        font-size: 13px;
+    }
+    /*features-section*/
+    /*video-features-section*/
+
+    /*system images section*/
+    .swiper-area-header .slider-buttons .appmax-default-btn {
+        margin: 0 10px;
+        min-width: 120px;
+    }
+
+    .appmax-v2 .appmax-swiper-slider-area {
+        padding: 50px 0 0;
+    }
+
+    .appmax-swiper-slider-area .container {
+        margin-top: 0;
+    }
+    /*system images section*/
+
+    /*user-review-area*/
+    .appmax-v2 .appmax-user-review-area {
+        background-size: initial;
+    }
+
+    .appmax-user-review-item {
+        width: 250px;
+        margin: auto;
+        padding: 5px 20px;
+    }
+
+    .appmax-v2 .appmax-user-review-area .swiper-slide:before {
+        width: 230px;
+    }
+
+    .appmax-v2 .appmax-user-review-area .swiper-slide:after {
+        width: 260px;
+    }
+
+    .user-review-content h2 {
+        font-size: 14px;
+    }
+
+    .user-review-content p.cust-review {
+        padding: 10px 0 20px;
+        font-size: 12px;
+    }
+    /*user-review-area*/
+
+    /******start plans area*****/
+    /*mobile prices choices*/
+    .mobile-prices-choices .students-num {
+        text-align: center !important;
+    }
+
+    .mobile-prices-choices .dropdown {
+        text-align: center;
+        line-height: normal;
+    }
+    /*mobile prices choices*/
+
+    /*mobile prices*/
+    .mobile-prices {
+        padding: 0;
+    }
+
+        .mobile-prices .price-head,
+        .buy-mob p {
+            font-size: 16px;
+        }
+
+    .buy-mob a {
+        padding: 0 5px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .mobile-prices-features .one-feature > div {
+        padding: 5px 10px;
+    }
+
+        .mobile-prices-features .one-feature > div:first-child {
+            width: 80%;
+            font-size: 12px;
+        }
+
+        .mobile-prices-features .one-feature > div:last-child {
+            width: 20%;
+        }
+
+            .mobile-prices-features .one-feature > div:last-child span {
+                font-size: 12px;
+            }
+
+            .mobile-prices-features .one-feature > div:last-child img {
+                width: 15px;
+                height: 15px;
+            }
+    /*mobile prices*/
+    /******end plans area*****/
+
+
+    /*certificates*/
+    .certificates .image-box {
+        width: 50%;
+        padding: 0 5px;
+    }
+
+        .certificates .image-box img {
+            max-width: 130px;
+        }
+
+    .modal-content {
+        width: 70vw;
+    }
+    /*certificates*/
+
+
+    /*footer*/
+    .appmax-v2 .appmax-subscribe input[type="email"] {
+        padding: 5px 20px !important;
+    }
+
+        .appmax-v2 .appmax-subscribe input[type="email"]::placeholder {
+            font-size: 14px;
+        }
+    /*footer*/
+}
+
+@media only screen and (max-width: 379px) {
+    /*header*/
+    .appmax-header-menu .mobile-header-logo {
+        margin: 15px auto 25px;
+    }
+
+    .mobile-header-logo img {
+        width: 150px;
+    }
+
+    .appmax-header-menu .m-menu-icons {
+        margin: 5px auto;
+    }
+
+        .appmax-header-menu .m-menu-icons a {
+            width: 40px;
+            height: 40px;
+        }
+    /*header*/
+
+    /*banner section*/
+    .appmax-about-left-img {
+        margin-bottom: 50px;
+    }
+    /*banner section*/
+
+    /*video-features-container*/
+    .video-features-container {
+        background-position: right;
+    }
+    /*video-features-container*/
+
+    /*system images section*/
+    .swiper-area-header,
+    .appmax-swiper-slider-area .container {
+        margin-top: 0;
+    }
+    /*system images section*/
+}
+
+@media only screen and (max-width: 479px) {
+    /******** system images *********/
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+    }
+    /******** system images *********/
+}
+/******************* end media query *********************/
+
+
+/* yaman code*/
+.appmax-header-menu li {
+    transform: matrix(1, 0, -0.26631, 1, 0, 0) !important;
+}
+
+    .appmax-header-menu li .inside-li {
+        transform: matrix(1, 0, 0.26631, 1, 0, 0) !important;
+    }
+
+@media screen and (min-width: 1024px) {
+    .fotter-social-icon ul li a {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    fixed-btn.fixed-one {
+        bottom: 56px;
+    }
+
+    .fixed-btn {
+        left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .fixed-btn.fixed-one {
+        bottom: 50px !important;
+    }
+}
+
+.footer-row1, .footer-row2 {
+    font-size: 22px;
+}
+
+.footer-bottom p {
+    font-size: 18px;
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1044.682" height="965.214" viewBox="0 0 1044.682 965.214">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f38033"/>
+      <stop offset="1" stop-color="#fcbf32"/>
+    </linearGradient>
+  </defs>
+  <g id="فيديو1" transform="translate(-451.217 -1134.719)">
+    <path id="Path_1787" data-name="Path 1787" d="M401.217,21.767c225.608,0,413.633,115.433,455,242.408S643.414,590.16,412.76,642.217c-124.09,18.277-216.067-1.352-285.7-54.831C55.94,532.759,16.442,447.648,16.442,332.5,16.442,104.486,175.608,21.767,401.217,21.767Z" transform="translate(426.094 1546.203) rotate(-30)" opacity="0.34" fill="url(#linear-gradient)"/>
+    <path id="Path_1786" data-name="Path 1786" d="M401.217,21.767c225.608,0,413.633,115.433,455,242.408S643.414,590.16,412.76,642.217c-124.09,18.277-216.067-1.352-285.7-54.831C55.94,532.759,16.442,447.648,16.442,332.5,16.442,104.486,175.608,21.767,401.217,21.767Z" transform="translate(535 1282)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

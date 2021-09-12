@@ -1,0 +1,305 @@
+/*start public modal*/
+.pop-up,
+.private-pop-up
+{
+    height:auto;
+    max-width:1250px;
+    margin: auto;
+    background:#fff;
+    z-index: 99999;
+    border-radius:30px;
+    -webkit-box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+.pop-up-container,
+.private-pop-up-container
+{
+     height: 100%;
+     width: 100%;
+     background: #fff;
+     opacity: .7;
+     position: relative;
+     z-index: -1;
+}
+
+.pop-back,
+.private-pop-back
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    display: none;
+}
+
+.form-head
+{
+    color: #2A2A2A;
+    font-weight: 600;
+}
+
+.pop-up .image-inside,
+.private-pop-up .image-inside
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.private-pop-up .image-inside img
+{
+    -webkit-transform: translate(35px, -160px);
+    -ms-transform: translate(35px, -160px);
+    transform: translate(35px, -160px);
+}
+
+.image-inside > div
+{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.image-inside h4,
+.image-inside p
+{
+    color: #fff;
+    font-weight: 600;
+}
+
+.image-inside h4
+{
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    margin: 0 auto 10px;
+    padding: 10px 0;
+}
+
+.image-inside p
+{
+    margin: 10px auto;
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+.image-inside p:last-child
+{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.pop-up .image-inside img
+{
+    margin-top: 50px;
+    max-width: 350px;
+}
+
+.pop-up .for-inputs
+{
+    padding: 40px 0;
+}
+
+.private-pop-up .for-inputs
+{
+    padding: 140px 0;
+}
+
+.pop-up .for-inputs .line-between span,
+.private-pop-up .for-inputs .line-between span
+{
+    position: relative;
+    width: 1px;
+    height: 80%;
+    background-color: #2A2A2A;
+    display: block;
+}
+
+.pop-up.for-inputs label,
+.pop-up .for-inputs ::placeholder,
+.private-pop-up .for-inputs label,
+.private-pop-up .for-inputs ::placeholder
+{
+    color: #2A2A2A;
+    font-size: 14px;
+}
+
+.pop-up .for-inputs textarea,
+.private-pop-up .for-inputs textarea
+{
+    resize: none;
+}
+
+.pop-up .for-inputs .btn-primary,
+.private-pop-up .for-inputs .btn-primary
+{
+    position: relative;
+    margin: auto;
+    color: #2A2A2A;
+    background-color: #fff;
+    border: 2px solid #2A2A2A;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.private-pop-up .for-inputs .btn-primary
+{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100px);
+    -ms-transform: translate(-50%, 100px);
+    transform: translate(-50%, 100px);
+}
+
+.modal-close-custom,
+.private-modal-close
+{
+    position: absolute;
+    top: 20px;
+    z-index: 2222;
+    cursor: pointer;
+    font-size: 24px;
+}
+/*end public modal*/
+
+
+/********** start media queries ***********/
+@media only screen and (max-width: 1400px)
+{
+    .pop-up,
+    .private-pop-up
+    {
+        max-width: 80vw;
+    }
+
+    .pop-up .image-inside img,
+    .private-pop-up .image-inside img
+    {
+        max-width: 20vw;
+    }
+
+    .private-pop-up .image-inside img
+    {
+        margin-top: 50px;
+    }
+
+    label
+    {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .pop-up,
+    .private-pop-up
+    {
+        max-width: 100%;
+        height: 100%;
+        top: 0;
+        border-radius: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .modal-close-custom,
+    .private-modal-close
+    {
+        color: #fff;
+    }
+
+    .pop-up .image-inside
+    {
+        background-image: url("../../images/sm-assets/want-to-buy/form-en-mo.png") !important;
+    }
+
+    .private-pop-up .image-inside
+    {
+        background-image: url("../../images/sm-assets/want-to-buy/trail-form-en-mo.png") !important;
+    }
+
+    .image-inside
+    {
+        padding: 20px 0;
+    }
+
+    .image-inside > div
+    {
+        padding-top: 0;
+    }
+
+    .pop-up .image-inside img,
+    .private-pop-up .image-inside img
+    {
+        display: none;
+    }
+
+    .private-pop-up .for-inputs
+    {
+        padding: 60px 0 20px;
+    }
+
+    .private-pop-up .for-inputs .btn-primary
+    {
+        -webkit-transform: translate(-50%, 50px);
+        -ms-transform: translate(-50%, 50px);
+        transform: translate(-50%, 50px);
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .form-head::after
+    {
+        content: "";
+        height: 1px;
+        width: 130px;
+        background-color: #2A2A2A;
+        position: absolute;
+        top: 32px;
+    }
+
+    .line-between
+    {
+        display: none;
+    }
+
+    .pop-up .form-1
+    {
+        margin-bottom: 50px;
+    }
+
+    .pop-up .for-inputs .btn-primary
+    {
+        margin-top: 20px;
+    }
+
+    .private-pop-up .for-inputs .btn-primary
+    {
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+
+}
+
+@media only screen and (max-width: 575px)
+{
+    .modal-close-custom,
+    .private-modal-close
+    {
+        top: 5px;
+    }
+
+    .for-inputs .row > div
+    {
+        padding: 0 50px;
+    }
+}
+/********** end media queries ***********/
